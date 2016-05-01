@@ -5,10 +5,10 @@ if(!empty($_POST)){
 <div class="alert alert-success" role="alert">
     <p>Dados enviados com sucesso, abaixo seguem os dados que você enviou</p>
 </div>
-<p>Nome: <?=$_POST['nome']?></p>
-<p>E-mail: <?=$_POST['email']?></p>
-<p>Assumto: <?=$_POST['assunto']?></p>
-<p>Texto: <?=$_POST['texto']?></p>
+<p><b>Nome:</b> <?=$_POST['nome']?></p>
+<p><b>E-mail:</b>E-mail: <?=$_POST['email']?></p>
+<p><b>Assumto:</b> <?=$_POST['assunto']?></p>
+<p><b>Texto:</b> <?=$_POST['texto']?></p>
 <?php
 }
 else{
