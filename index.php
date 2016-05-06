@@ -1,4 +1,5 @@
-<html>
+<!doctype html>
+<html lang="pt-BR">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,6 +43,9 @@ switch($_GET['acao']){
 
 require_once('footer.php');
 
+$rota = parse_url("http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+
+echo $rota['path'];
 ?>
 </div>
 
