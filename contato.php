@@ -1,5 +1,5 @@
 <h2>Contato</h2>
-<form action="index.php?acao=envia" method="post">
+<form action="envia" method="post">
     <div class="form-group">
         <label>Nome:</label>
         <input class="form-control" name="nome" required>

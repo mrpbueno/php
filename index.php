@@ -12,40 +12,12 @@
 
 <div class="container">
 <?php
+
 require_once('menu.php');
-
-if(!isset($_GET['acao'])){
-    $_GET['acao'] = 'home';
-}
-
-switch($_GET['acao']){
-    case 'home':
-        require_once('home.php');
-        break;
-    case 'empresa':
-        require_once('empresa.php');
-        break;
-    case 'produtos':
-        require_once('produtos.php');
-        break;
-    case 'servicos':
-        require_once('servicos.php');
-        break;
-    case 'contato':
-        require_once('contato.php');
-        break;
-    case 'envia':
-        require_once('envia.php');
-        break;
-    default:
-        require_once('home.php');
-}
-
+require_once ('rota.php');
+validaRota($rotas,$path);
 require_once('footer.php');
 
-$rota = parse_url("http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
-
-echo $rota['path'];
 ?>
 </div>
 
