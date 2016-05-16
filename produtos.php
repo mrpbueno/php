@@ -1,2 +1,3 @@
-<h2>Produtos</h2>
-<p>Conteúdo dos produtos</p>
+<?php $pagina = getConteudo($path); ?>
+<h2><?=$pagina['titulo']?></h2>
+<p><?=$pagina['conteudo']?></p>

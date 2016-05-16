@@ -13,10 +13,10 @@
 <div class="container">
 <?php
 
-require_once('menu.php');
-require_once ('rota.php');
-validaRota($rotas,$path);
-require_once('footer.php');
+require_once ('menu.php');
+require_once ('funcoes.php');
+validaRota($path, $rotas);
+require_once ('footer.php');
 
 ?>
 </div>
