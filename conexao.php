@@ -1,6 +1,6 @@
 <?php
 
-function conexaoDB ()
+function conexaoDB()
 {
     try {
         $config = include ('config.php');

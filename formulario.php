@@ -1,4 +1,4 @@
-<form action="contato" method="post">
+<form action="/contato" method="post">
     <div class="form-group">
         <label>Nome:</label>
         <input class="form-control" name="nome" required>

@@ -1,6 +1,5 @@
-<?php $pagina = getConteudo($path); ?>
-<h2><?=$pagina['titulo']?></h2>
-<p><?=$pagina['conteudo']?></p>
+<h2>Busca</h2>
+
 <ul>
 <?php
 $busca = isset($_POST['busca']) ? $_POST['busca'] : null;

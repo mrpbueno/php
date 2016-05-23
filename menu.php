@@ -3,10 +3,11 @@
 
         <ul class="nav navbar-nav navbar-left">
             <li><a href="/">Home</a></li>
-            <li><a href="empresa">Empresa</a></li>
-            <li><a href="produtos">Produtos</a></li>
-            <li><a href="servicos">Serviços</a></li>
-            <li><a href="contato">Contato</a></li>
+            <li><a href="/empresa">Empresa</a></li>
+            <li><a href="/produtos">Produtos</a></li>
+            <li><a href="/servicos">Serviços</a></li>
+            <li><a href="/contato">Contato</a></li>
+            <li><a href="/admin">Admin</a></li>
         </ul>
         <form class="navbar-form navbar-right" method="post" action="busca">
             <div class="input-group">
